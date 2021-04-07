@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rainy Brain</title>
-    <link rel="stylesheet" href={{url_for('static',filename='static//style1.css')}}>
+    <link rel="stylesheet" href={{url_for(filename='style1.css')}}>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   </head>
   <body>
@@ -19,7 +19,7 @@
           <a href="#about">About Rainy Brain</a>
           <a href="#dashboard">Dashboard</a>
           <a href="#info">Developer</a>
-          <a href="/predict">Predictor</a>
+          <a href="predict.html">Predictor</a>
         </div>
         <label for="check">
         <i class="fas fa-bars menu-btn"></i>
@@ -67,7 +67,7 @@
       <h2>Dashboard</h2>
       <p>This dashboard is done using a software called PowerBI which is a product of Microsoft.
         Here I have just attached the images of the dashboard because PowerBI needs oraganizational
-        account. So to see the visualizations interactive I am attaching my <a href="../static/rain.pbix" style="color: black; font-weight: bold;">PowerBI</a>
+        account. So to see the visualizations interactive I am attaching my <a href="rain.pbix" style="color: black; font-weight: bold;">PowerBI</a>
         dashboard file. This requires PowerBI software to open the file. The usage of dashboards like
         these is to bring a better understanding about the dataset and also to bring some beautiful insights</p>
       <img class="dashboard-image" src="dashboard.png" alt="1">
